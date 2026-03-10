@@ -1,6 +1,10 @@
-var box=document.querySelector('#box')
+var chutki=document.querySelector('img')
+var text=document.querySelector('h2 span')
 
-box.addEventListener('mouseenter', function(){
-    console.log('Button clicked');
-    
+chutki.addEventListener('mouseenter',function(){
+   text.innerHTML='Chutki se dur ho jaw ' 
+})
+
+chutki.addEventListener('mouseleave',function(){
+    text.innerHTML='ha ab dur hi rehna '
 })
